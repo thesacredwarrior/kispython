@@ -2,7 +2,7 @@ import re
 
 
 def main(str):
-    pattern = "(?<=[@]).*?(?=[.][|][|])"
+    pattern = "(?<=[@]).*?(?=[.][|])"
     result = {}
 
     str = str.replace(" ", "")
