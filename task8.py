@@ -6,6 +6,7 @@ def main(str):
     result = {}
 
     str = str.replace(" ", "")
+    str = str.replace("'", "")
     str = str.replace("\n", "")
     access = re.findall(pattern, str)
 
