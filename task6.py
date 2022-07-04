@@ -1,3 +1,4 @@
+#task6
 def zero(items, left, right):
     if items[0] == 2016:
         return left
